@@ -1,5 +1,4 @@
-const msg = (arg1,arg2)=>{
-    console.log(`${arg1} is ${arg2}`)
-};
+const arg = process.argv.slice(2);
+    console.log(`${arg[0]} is ${arg[1]}`)
 
 
